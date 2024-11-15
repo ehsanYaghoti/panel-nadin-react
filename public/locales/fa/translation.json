@@ -1,0 +1,17 @@
+{
+    "Welcome to React": "به ریاکت خوش آمدید",
+    "hello" : "سلام",
+    "dashboard" : "داشبورد",
+    "todos" : "لیست کارها",
+    "wheater" : "آب و هوا",
+    "profile" : "حساب کاربری",
+    "header" : "عنوان سایت",
+    "Good morning" : "صبح بخیر",
+    "Good noon" : "ظهر بخیر",
+    "Good after noon" : "بعد از ظهر بخیر",
+    "Good evening" : "عصر بخیر",
+    "Good night" : "شب بخیر",
+    "username" : "نام کاربری",
+    "theme" : "دارک مود",
+    "language" : "زبان"
+}

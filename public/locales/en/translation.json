@@ -1,0 +1,23 @@
+{
+    "Welcome to React": "Welcome to React and react-i18next",
+    "helllo" : "hello",
+    "username" : "username",
+    "dashboard" : "Dashboard",
+    "todos" : "Todos",
+    "wheater" : "Wheater",
+    "profile" : "Profile",
+    "header" : "App bar",
+    "Good morning" : "Good morning",
+    "Good noon" : "Good noon",
+    "Good after noon" : "Good after noon",
+    "Good evening" : "Good evening",
+    "Good night" : "Good night",
+    "theme" : "theme",
+    "language" : "language",
+    "todoList" : "Todo List",
+    "addTodo" : "Add Todo",
+    "add" : "Add"
+
+
+
+}

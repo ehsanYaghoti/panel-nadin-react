@@ -1,25 +1,46 @@
-import React from 'react';
-import logo from './logo.svg';
+import React  from 'react';
+import { Route , Routes , BrowserRouter as Router } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
+import { QueryClient , QueryClientProvider } from '@tanstack/react-query';
+
+// import components
+import Dashboard from './components/routes/dashboard';
+import Todos from './components/routes/todos';
+import Wheater from './components/routes/wheater';
+import Profile from './components/routes/profile';
+import { CssBaseline, ThemeProvider , createTheme } from '@mui/material';
 
 function App() {
+
+  const queryClient = new QueryClient()
+
+
+  const theme = createTheme({
+    colorSchemes: {
+      dark: true,
+    },
+  });
+ 
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <QueryClientProvider client={queryClient} >
+      <ThemeProvider theme={theme}  >
+      <CssBaseline />
+      <div className="App font-['Vazirmatn']" dir={localStorage.getItem('i18nextLng') === 'fa' ? 'rtl' : 'ltr'}>
+        <Router>
+          <Routes>
+            <Route path='/' Component={Dashboard} />
+            <Route path='/todos' Component={Todos} />
+            <Route path='/wheater' Component={Wheater} />
+            <Route path='/profile' Component={Profile} />
+          </Routes>
+        </Router>
+        <ToastContainer />
+      </div>
+      </ThemeProvider>
+    </QueryClientProvider>
   );
 }
 
