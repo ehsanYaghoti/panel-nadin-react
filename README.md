@@ -25,6 +25,10 @@ tailwindcss : ^3.4.14
 
 In the project directory, you can run:
 
+### `npm install`
+
+Install packages in package.json\
+
 ### `npm start`
 
 Runs the app in the development mode.\
