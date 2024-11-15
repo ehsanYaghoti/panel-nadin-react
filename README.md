@@ -1,8 +1,27 @@
-# Getting Started with Create React App
+# panel React App challenge
 
+A challange by [Nadin soft](https://nadinsoft.com/)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Tecnologies and libraries
+
+These libraries and features are used :
+
+packages | libraries
+--- | ---
+@emotion/react: ^11.13.3 | i18next: ^23.16.5
+@emotion/styled: ^11.13.0 | i18next-browser-languagedetector: ^8.0.0
+@mui/material:^6.1.7 | i18next-http-backend: ^1.0.10
+@tanstack/react-query: ^5.60.2 | react-hook-form: ^7.53.2
+react: ^18.3.1 | react-dom: ^18.3.1
+react-i18next: ^15.1.1 | react-toastify: ^10.0.6
+react-router-dom: ^6.28.0 | react-scripts: 5.0.1
+typescript: ^4.9.5 | cypress : ^13.15.2
+tailwindcss : ^3.4.14
+
+
+
+## Aalable Scripts
 
 In the project directory, you can run:
 
@@ -14,30 +33,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+### `npm run cy:open`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches and the test runner Cypress in the interactive watch mode.\
+Visit Cypress website [running tests]([https://facebook.github.io/create-react-app/docs/running-tests](https://docs.cypress.io/app/get-started/open-the-app)) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Learn More
 
