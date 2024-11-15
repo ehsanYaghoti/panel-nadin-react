@@ -39,8 +39,8 @@ Launches and the test runner Cypress in the interactive watch mode.\
 Visit Cypress website [running tests]([https://facebook.github.io/create-react-app/docs/running-tests](https://docs.cypress.io/app/get-started/open-the-app)) for more information.
 
 
-## Learn More
+## BUGs or comments
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[Create new Issues](https://github.com/ehsanYaghoti/Weblog/issues) (preferred)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Email Me: ehsan.yaghoti@yahoo.com
