@@ -19,9 +19,12 @@ react-router-dom: ^6.28.0 | react-scripts: 5.0.1
 typescript: ^4.9.5 | cypress : ^13.15.2
 tailwindcss : ^3.4.14
 
+## clone or download
+```terminal
+$ git clone https://github.com/ehsanYaghoti/panel-nadin-react
+```
 
-
-## Aalable Scripts
+## Available Scripts
 
 In the project directory, you can run:
 
