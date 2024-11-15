@@ -17,7 +17,7 @@ react: ^18.3.1 | react-dom: ^18.3.1
 react-i18next: ^15.1.1 | react-toastify: ^10.0.6
 react-router-dom: ^6.28.0 | react-scripts: 5.0.1
 typescript: ^4.9.5 | cypress : ^13.15.2
-tailwindcss : ^3.4.14
+tailwindcss : ^3.4.14 | axios : ^1.7.7
 
 ## clone or download
 ```terminal
