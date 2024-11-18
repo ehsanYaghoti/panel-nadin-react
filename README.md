@@ -1,6 +1,5 @@
 # panel React App challenge
 
-A challange by [Nadin soft](https://nadinsoft.com/)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and Typescript.
 
 ## Tecnologies and libraries
